@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: jura;
+    src: url(./media/JuraBook.ttf);
+}
+@font-face {
+    font-family: jura;
+    src: url(./media/JuraBook.ttf);
+} 
+
+h1, p{
+    font-family: jura;
+}
+/* PREIMPOSTAZIONI */
+/* NAVBAR */
+.link1{
+    margin-right: 30px;
+    margin-left: 80px;
+}
+.link2{
+    margin-right: 30px;
+}
+.link3{
+    margin-right: 30px;
+}
+.link4{
+    margin-right: 30px;
+}
+.box{
+    height: 70px;
+    background-color: rgb(11, 19, 36);
+    position: fixed;
+}
+.line{
+    height: 5px;
+    width: 1700px;
+    margin-top: 70px;
+    background-color: aliceblue;
+}
+.navlink{
+    color: white;
+    list-style-type: none;
+    margin-top: -40px;
+    display: flex; 
+    justify-content: start
+}
+.luna{
+    height: 30px;
+    width: 20px;
+}
+/* FINE NAVBAR */
+
+/* HEADER */
+.imgMoon{
+    position: absolute;
+    z-index: -1;
+    margin-top: 70px;
+    padding-left: 0px;
+}
+.lorem{
+    display: flex;
+    justify-content: start;
+    margin-top: 400px;
+    color: rgb(230, 225, 229);
+    font-size: 100px;
+}
+.lorem2{
+    color: aliceblue;
+    font-size: 20px;
+}
+.headerRow{
+    height: 1000px;
+    align-items: start;
+}
+#frecciadown{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 100px;
+
+}
+/* FINE HEADER */
+/* SECTION */
+.timeline{
+    color: aliceblue;
+    border-bottom: 2px solid rgb(11, 125, 182);
+}
+
+.paragrafo{
+    font-size: 50px;    
+    font-family: jura;
+    
+}
+
+/* FINE SECTION */
